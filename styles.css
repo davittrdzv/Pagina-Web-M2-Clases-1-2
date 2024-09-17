@@ -1,13 +1,14 @@
 * {
-  background-color: #fff;
+  background-color: #6c757d;
   font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
+  color: white;
+}
+a:hover {
+  color: yellow
 }
 header {
   text-align: center;
   font-size: 40px;  
-  color: black;
-  background-color: aqua;
-  padding: 20px;
   font-weight: bold;
 }
 nav {
@@ -39,6 +40,10 @@ margin: 10px 0px 10px 0px;
 }
 .socialmedia {
   width: 60px;
+  margin-right: 20px;
+}
+.socialmedia:hover {
+  border-style: dotted;
 }
 .footer2 {
   text-align: center;  
