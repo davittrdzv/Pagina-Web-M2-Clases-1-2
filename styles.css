@@ -38,13 +38,17 @@ margin: 10px 0px 10px 0px;
   justify-content: flex-end;
   gap: 25px;
 }
-.socialmedia {
-  width: 60px;
-  margin-right: 20px;
+.footer1 {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  gap: 20px;
 }
-.socialmedia:hover {
-  border-style: dotted;
+.footer1divs {
+  flex: 0 1 auto;
+  padding: 10px;
 }
+
 .footer2 {
   text-align: center;  
 }
@@ -54,4 +58,11 @@ margin: 10px 0px 10px 0px;
   display: flex;
   list-style: none;
   gap:  25px;
+}
+.socialmedia {
+  width: 60px;
+  margin-right: 20px;
+}
+.socialmedia:hover {
+  border-style: dotted;
 }
