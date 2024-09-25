@@ -3,63 +3,123 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Café DRV</title>
+    <title>Clon de Starbucks</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-<body>
-    <header>
-    CAFÉ DRV
-    <hr>
-    </header>
+<body>    
     <nav>
         <div class="left-nav">
-            <img id="Logo" src="Images/Logo.png" alt="Café DRV">
-            <span><a href="https://www.w3schools.com/">MENÚ</a></span>
-            <span><a href="https://www.w3schools.com/">RECOMPENSAS</a></span>
+            <img id="logo" src="Images/Logo.svg" alt="Logotipo">
+            <a class="a-nav" href="https://www.w3schools.com/">MENÚ</a>
+            <a class="a-nav" href="https://www.w3schools.com/">REWARDS</a>
         </div>
         <div class="right-nav">
-            <span><a href="https://www.w3schools.com/">LOCALIZAR TIENDA</a></span>
-            <span><a href="https://www.w3schools.com/">INGRESAR</a></span>
-            <span><a href="https://www.w3schools.com/">ÚNETE</a></span>
+            <img src="Images/Stores.svg" alt="Stores">            
+            <a class="storelocator" href="https://www.w3schools.com/">Localizar Tienda</a>
+            <button class="navbuttons" id="login">Ingresar</button>
+            <button class="navbuttons" id="join">Únete</button>            
         </div>
     </nav>
-    <img class="main-images" src="Images/Image1.jpg" alt="Imagen 1">
-    <img class="main-images" src="Images/Image2.jpg" alt="Imagen 2">
-    <img class="main-images" src="Images/Image3.jpg" alt="Imagen 3">
-    <img class="main-images" src="Images/Image4.jpg" alt="Imagen 4">
+    <div class="div1">
+        <img class="main-images" id="mainimage1" src="Images/Image1.png" alt="Imagen 1">
+        <div class="div1a">
+            <p>STARBUCKS LATTE POR TI</p>
+            <p>Por nuestro amor al café, a nuestros partners y a nuestros clientes.</p>
+            <p>¡Estamos felices de verte todos los días!</p>
+        </div>
+    </div>
+    <div class="div2">
+        <div class="div2a">
+            <p>¡LA ESPERA TERMINÓ!</p>
+            <p>PUMPKIN SPICE ESTÁ AQUÍ</p>
+            <p>Siente el otoño con cada sorbo de nuestro Pumpkin Spice Latte y prueba la nueva bebida Chai Latte Helado con Pumpkin Cold Foam</p>
+        </div>
+            <img class="main-images" id="mainimage2" src="Images/Image2.png" alt="Imagen 2">        
+    </div>
+    <div class="div3">
+        <img class="main-images" id="mainimage3" src="Images/Image3.png" alt="Imagen 3">
+        <div class="div3a">
+            <p>DATE UN LATTE Y PONLE UN ACOMPAÑANTE</p>
+            <p>Disfruta de las opciones que tenemos para ti y haz un momento especial para tu día.</p>
+            <button>Más información</button>
+        </div>
+    </div>    
+    <div class="div4">
+        <div class="div4a">
+            <p>TUS MEJORES RECUERDOS SABEN A APPLE CRISP</p>
+            <p>Descubre el encanto del otoño con nuestras bebidas de temporada.</p>
+        </div>
+            <img class="main-images" id="mainimage4" src="Images/Image4.png" alt="Imagen 4">
+    </div>
+    <div class="div5">
+        <div class="div5a">
+            <p>UN HOMENAJE A LA TRADICIÓN</p>
+            <p>La tradición del café brasileño en tu taza de café.</p>
+            <p>Disfruta de sus notas de chocolate y nuez.</p>
+            <p>#StarbucksLatte</p>
+        </div>
+            <img class="main-images" id="mainimage5" src="Images/Image5.png" alt="Imagen 5">
+    </div>
+    <div class="div6">
+        <img class="main-images" id="mainimage6" src="Images/Image6.png" alt="Imagen 6">
+        <div class="div6a">
+            <p>RECOMPENSAS EN TU BEBIDA FAVORITA</p>
+            <p>Sé parte de Starbucks Rewards y obtén más café gratis, promociones exclusivas, accesos a productos antes que nadie y más.</p>
+            <button>Descarga la app y regístrate</button>
+        </div>
+    </div>    
+    <div class="div7">
+        <img class="main-images" id="mainimage7" src="Images/Image7.png" alt="Imagen 7">
+        <div class="div7a">
+            <p>TODO Y TODOS POR EL PLANETA</p>
+            <p>Trae tu vaso o termo favorito y obtén $8 de descuento en tu bebida</p>
+            <button>Conoce más</button>
+        </div>
+    </div>
+    <div class="div8">
+        <div class="div8a">
+            <img class="main-images"  id="mainimage8" src="Images/Image8.png" alt="Imagen 8">
+            <p>Consulta los eventos más recientes.</p>
+            <button>Aquí</button>
+        </div>
+        <div class="div8b">
+            <img class="main-images" id="mainimage9" src="Images/Image9.png" alt="Imagen 9">
+            <p>Términos y condiciones</p>
+            <button>Ver más</button>
+        </div>
+    </div>
+<hr>
+
     <footer class="footer1">
         <div class="footer1divs">
-            <h2>Sobre Nosotros</h2>
-            <ul>
-                <li><a href="https://www.w3schools.com/">Nuestra Historia</a></li>
-                <li><a href="https://www.w3schools.com/">Trabaja con Nosotros</a></li>
-            </ul>
+            <h3>Sobre Nosotros</h3>
+            <p><a class="footerlinks" href="https://www.w3schools.com/">Trabaja con nosotros</a></p>
+            <p><a class="footerlinks" href="https://www.w3schools.com/">Historias Starbucks</a></p>
         </div>
         <div class="footer1divs">
-            <h2>Atención a Clientes</h2>
-            <ul>
-                <li><a href="https://www.w3schools.com/">Contáctanos</a></li>
-                <li><a href="https://www.w3schools.com/">Facturación</a></li>
+            <h3>Atención al cliente</h3>
+            <p class="footerlinks"><a class="footerlinks" href="https://www.w3schools.com/">Contáctanos</a></p>
+            <p class="footerlinks"><a class="footerlinks" href="https://www.w3schools.com/">Facturas Electrónicas</a></p>
+            <p class="footerlinks"><a class="footerlinks" href="https://www.w3schools.com/">Formas de comprar</a></p>
             </ul>
         </div>      
         <hr>
     </footer>
-    <footer class="footer2">
-        <p>Nuestras Redes Sociales</p>
+    <footer class="footer2">        
         <div class="footersm">
             <a href="https://www.facebook.com/"><img class="socialmedia" src="Images/Facebook.png" alt="Facebook"></a>
             <a href="https://www.instagram.com/"><img class="socialmedia" src="Images/Instagram.png" alt="Instagram"></a>
             <a href="https://x.com/"><img class="socialmedia" src="Images/X.png" alt="X"></a>
-        </div><hr>        
-        <ul>
-            <li><a href="https://www.w3schools.com/">Accesibilidad Web</a></li>
-            <li><a href="https://www.w3schools.com/">Aviso de Privacidad</a></li>
-            <li><a href="https://www.w3schools.com/">Boletines</a></li>
-            <li><a href="https://www.w3schools.com/">Condiciones de Uso</a></li>
-            <li><a href="https://www.w3schools.com/">Mapa del Sitio</a></li>
-            <li><a href="https://www.w3schools.com/">Preferencias sobre Cookies</a></li>
-        </ul>        
-        2024. Café DRV. Todos los Derechos Reservados.
+        </div>
+        <ul >
+            <li class="footerlinks"><a href="https://www.w3schools.com/">Accesibilidad Web</a></li>
+            <li class="footerlinks"><a href="https://www.w3schools.com/">Aviso de Privacidad</a></li>
+            <li class="footerlinks"><a href="https://www.w3schools.com/">Boletines</a></li>
+            <li class="footerlinks"><a href="https://www.w3schools.com/">Condiciones de Uso</a></li>
+            <li class="footerlinks"><a href="https://www.w3schools.com/">Mapa del Sitio</a></li>
+            <li class="footerlinks"><a href="https://www.w3schools.com/">Preferencias sobre Cookies</a></li>
+        </ul>
+        2024.
     </footer>
 </body>
 </html>

@@ -1,63 +1,306 @@
 * {
-  background-color: #6c757d;
-  font-family: 'Franklin Gothic Book', 'Arial Narrow', Arial, sans-serif;
-  color: white;
+  background-color: white;
+  font-family: SoDo Sans,Helvetica,Arial,sans-serif
+}
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;  
 }
 a:hover {
-  color: yellow
+  text-decoration: none;
 }
-header {
-  text-align: center;
-  font-size: 40px;  
-  font-weight: bold;
+a:active {
+  text-decoration: none;
+}
+.a-nav:hover {
+  border-bottom-style: solid;
+  border-bottom-width: 10px;
+  border-bottom: #00754a;
+  color: #00754a
 }
 nav {
   display: flex;
   justify-content: space-between;
-  align-items: center;
   padding: 0 20px;
   font-weight: bold;
+  margin-bottom: 20px;
 }
-#Logo {
-  width: 100px;
-  margin-right: 20px;
+.navbuttons {
+    border-radius: 15px;
+    padding: 6px;
+    font-weight: bold;
+}
+.storelocator:hover {
+  color: grey;
+}
+#login:hover {
+  color: grey;
+  cursor: pointer;
+}
+#join {
+  background-color: black;
+  color: white;
+}
+#join:hover {
+  cursor: pointer;
+}
+.div1 {
+  display: flex;
+  width: 100%;
+  margin: 0 0 20px 0;
+  background-color: rgb(30, 57, 50);
+}
+.div1a > * {
+  background-color: rgb(30, 57, 50);
+  width: 100%;
+  text-align: center;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.div1a {
+  background-color: rgb(30, 57, 50);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.div2 {
+  display: flex;
+  width: 100%;
+  margin: 0 0 20px 0;
+  background-color: rgb(247, 183, 144);
+}
+.div2a > * {
+  background-color: rgb(247, 183, 144);
+  width: 100%;
+  text-align: center;
+  color: black;
+  align-items: center;
+  justify-content: center;
+}
+.div2a {
+  background-color: rgb(247, 183, 144);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;  
+}
+.div3 {
+  display: flex;
+  width: 100%;
+  margin: 0 0 20px 0;
+  background-color: rgb(30, 57, 50);
+}
+.div3a > * {
+  background-color: rgb(30, 57, 50);
+  width: 100%;
+  text-align: center;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.div3a {
+  background-color: rgb(30, 57, 50);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.div4 {
+  display: flex;
+  width: 100%;
+  margin: 0 0 20px 0;
+  background-color: rgb(196, 165, 109);
+}
+.div4a > * {
+  background-color: rgb(196, 165, 109);
+  width: 100%;
+  text-align: center;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.div4a {
+  background-color: rgb(196, 165, 109);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.div5 {
+  display: flex;
+  width: 100%;
+  margin: 0 0 20px 0;
+  background-color: rgb(66, 143, 180);
+}
+.div5a > * {
+  background-color: rgb(66, 143, 180);
+  width: 100%;
+  text-align: center;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.div5a {
+  background-color: rgb(66, 143, 180);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.div6 {
+  display: flex;
+  width: 100%;
+  margin: 0 0 20px 0;
+  background-color: rgb(30, 57, 50);
+}
+.div6a > * {
+  background-color: rgb(30, 57, 50);
+  width: 100%;
+  text-align: center;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.div6a {
+  background-color: rgb(30, 57, 50);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.div7 {
+  display: flex;
+  width: 100%;  
+  margin: 0 0 20px 0;
+  background-color: rgb(8, 65, 86);
+}
+.div7a > * {
+  background-color: rgb(8, 65, 86);
+  width: 100%;
+  text-align: center;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.div7a {
+  background-color: rgb(8, 65, 86);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+}
+.div8 {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;  
+  margin: 0 0 20px 0;  
+}
+.div8a > * {
+  background-color: rgb(52, 51, 51);
+  width: 100%;
+  text-align: center;
+  color: white;
+  align-items: center;
+  justify-content: center;  
+}
+.div8a {
+  background-color: rgb(52, 51, 51);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-right: 10px;
+}
+.div8b > * {
+  background-color: rgb(8, 65, 86);
+  width: 100%;
+  text-align: center;
+  color: white;
+  align-items: center;
+  justify-content: center;
+}
+.div8b {
+  background-color: rgb(8, 65, 86);
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  margin-left: 10px;
+}
+
+
+#mainimage1 {
+  background-color: rgb(30, 57, 50);
+}
+#mainimage2 {
+  background-color: rgb(247, 183, 144);
+}
+#mainimage3 {
+  background-color: rgb(30, 57, 50);
+}
+#mainimage4 {
+  background-color: rgb(196, 165, 109);
+}
+#mainimage5 {
+  background-color: rgb(66, 143, 180);
+}
+#mainimage6 {
+  background-color: rgb(30, 57, 50);
+}
+#mainimage7 {
+  background-color: rgb(8, 65, 86);
+}
+#mainimage8 {
+  background-color: rgb(52, 51, 51);
+  width: 100%;
+}
+#mainimage9 {
+  background-color: rgb(8, 65, 86);
+  width: 100%;
 }
 .main-images {
-width: 100%;
-margin: 10px 0px 10px 0px;
+  width: 50%;
 }
 .left-nav, .right-nav {
   display: flex;
   align-items: center;
 }
 .left-nav {
-  justify-content: flex-start;
-  gap:  25px;
+  gap:  20px;
 }
 .right-nav {
-  justify-content: flex-end;
-  gap: 25px;
+  gap: 20px;
 }
 .footer1 {
+  width: 100%;
   display: flex;
   justify-content: flex-start;
   align-items: flex-start;
   gap: 20px;
 }
 .footer1divs {
-  flex: 0 1 auto;
   padding: 10px;
 }
-
 .footer2 {
-  text-align: center;  
+  text-align: center;
 }
 .footer2 ul {
-  align-items: center;
-  text-align: center;  
   display: flex;
+  align-items: center;
   list-style: none;
+  justify-content: center;
+  width: 100%;  
   gap:  25px;
+}
+.footerlinks {
+  color: gray;
+}
+.footerlinks:hover {
+  color: black;
 }
 .socialmedia {
   width: 60px;
