@@ -22,6 +22,10 @@ a:active {
   color: #00754a
 }
 nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   padding: 0 20px;
@@ -318,11 +322,11 @@ nav {
   color: gray;
 }
 .socialmedia {
-  width: 60px;
+  width: 40px;
   margin-right: 20px;
 }
 .socialmedia:hover {
-  border-style: dotted;
+  filter: opacity(50%);  
 }
 .legal {
   color: gray;
