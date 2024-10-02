@@ -16,10 +16,7 @@ a:active {
   text-decoration: none;
 }
 .a-nav:hover {
-  border-bottom-style: solid;
-  border-bottom-width: 10px;
-  border-bottom: #00754a;
-  color: #00754a
+  border-bottom: 5px solid #00754a;  
 }
 nav {
   position: fixed;
