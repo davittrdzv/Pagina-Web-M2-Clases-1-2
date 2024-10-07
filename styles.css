@@ -7,7 +7,7 @@ a:link {
   text-decoration: none;
 }
 a:visited {
-  text-decoration: none;  
+  text-decoration: none;
 }
 a:hover {
   text-decoration: none;
@@ -16,18 +16,27 @@ a:active {
   text-decoration: none;
 }
 .a-nav:hover {
-  border-bottom: 5px solid #00754a;  
+  border-bottom: 5px solid #00754a;
 }
 nav {
   position: fixed;
   top: 0;
   left: 0;
   right: 0;
-  display: flex;
-  justify-content: space-between;
   padding: 0 20px;
   font-weight: bold;
   margin-bottom: 20px;
+}
+.main-nav {
+  display: flex;
+  justify-content: center;
+  gap: 30%;
+}
+.left-nav {
+  justify-content: space-around;
+}
+.right-nav {
+  justify-content: space-around;
 }
 .navbuttons {
     border-radius: 15px;
@@ -52,172 +61,173 @@ nav {
 #join:hover {
   cursor: pointer;
 }
+.contenido {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
 .div1 {
   background-color: rgb(30, 57, 50);
-  width: auto;
   margin: 0 0 20px 0;
   display: flex;
+  max-width: 2000px;
 }
 .div1a {
   background-color: rgb(30, 57, 50);
-  width: auto;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;  
-  text-align: center;
-}
-.div1a > * {
-  background-color: rgb(30, 57, 50);
-  color: white;  
-  width: auto;
-}
-.div2 {  
-  background-color: rgb(247, 183, 144);  
-  width: 100%;
-  margin: 0 0 20px 0;
-  display: flex;
-}
-.div2a {
-  background-color: rgb(247, 183, 144);
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  text-align: center;  
+  text-align: center;
+  width: 50%;  
+}
+.div1a > * {
+  background-color: rgb(30, 57, 50);
+  color: white;
+  padding: 0px 60px;
+}
+.div2 {
+  background-color: rgb(247, 183, 144);
+  margin: 0 0 20px 0;
+  display: flex;
+  max-width: 2000px;
+}
+.div2a {
+  background-color: rgb(247, 183, 144);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  width: 50%;
 }
 .div2a > * {
   background-color: rgb(247, 183, 144);
   color: black;
-  width: 100%;     
+  padding: 0px 60px;
 }
-.div3 {  
+.div3 {
   background-color: rgb(30, 57, 50);
-  width: 100%;
   margin: 0 0 20px 0;
   display: flex;
+  max-width: 2000px;
 }
 .div3a {
   background-color: rgb(30, 57, 50);
-  width: 100%;  
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   justify-content: center;
-  text-align: center;  
+  text-align: center;
+  width: 50%;
 }
 .div3a > * {
   background-color: rgb(30, 57, 50);
   color: white;
-  width: 100%;  
 }
 .div4 {
   background-color: rgb(196, 165, 109);
-  width: 100%;
   margin: 0 0 20px 0;
   display: flex;
+  max-width: 2000px;
 }
 .div4a {
   background-color: rgb(196, 165, 109);
-  width: 100%;
   display: flex;
-  flex-direction: column;  
+  flex-direction: column;
   justify-content: center;
-  text-align: center;  
+  text-align: center;
+  width: 50%;
 }
 .div4a > * {
   background-color: rgb(196, 165, 109);
   color: white;
-  width: 100%;  
 }
 .div5 {
   background-color: rgb(66, 143, 180);
-  width: 100%;
   margin: 0 0 20px 0;
   display: flex;
+  max-width: 2000px;
 }
 .div5a {
   background-color: rgb(66, 143, 180);
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  width: 50%;
 }
 .div5a > * {
   background-color: rgb(66, 143, 180);
   color: white;
-  width: 100%;
+  padding: 0px 60px;  
 }
 .div6 {
   background-color: rgb(30, 57, 50);
-  width: 100%;
   margin: 0 0 20px 0;
   display: flex;
+  max-width: 2000px;
 }
 .div6a {
   background-color: rgb(30, 57, 50);
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  width: 50%;
 }
 .div6a > * {
   background-color: rgb(30, 57, 50);
   color: white;
-  width: 100%;
+  padding: 0px 60px;
 }
 .div7 {
   background-color: rgb(8, 65, 86);
-  width: 100%;
   margin: 0 0 20px 0;
   display: flex;
+  max-width: 2000px;
 }
 .div7a {
   background-color: rgb(8, 65, 86);
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
+  width: 50%;
 }
 .div7a > * {
   background-color: rgb(8, 65, 86);
   color: white;
-  width: 100%;
+  padding: 0px 60px;
 }
 .div8 {
-  width: 100%;  
   margin: 0 0 20px 0;
   display: flex;
   justify-content: space-between;
+  max-width: 2000px;
 }
 .div8a {
   background-color: rgb(52, 51, 51);
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   margin-right: 10px;
+  width: 50%;
 }
 .div8a > * {
   background-color: rgb(52, 51, 51);
   color: white;
-  width: 100%;
 }
 .div8b {
   background-color: rgb(8, 65, 86);
-  width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   text-align: center;
   margin-right: 10px;
+  width: 50%;
 }
 .div8b > * {
   background-color: rgb(8, 65, 86);
   color: white;
-  width: 100%;
 }
 .mainbuttons {
   border-radius: 15px;
@@ -225,7 +235,6 @@ nav {
   font-weight: bold;
   border-color: white;
   display: inline-block;
-  max-width: fit-content;
   text-align: center;
 }
 #mainimage1 {
@@ -254,7 +263,7 @@ nav {
   width: 100%;
 }
 #mainimage9 {
-  background-color: rgb(8, 65, 86);
+  background-color: rgb(8, 65, 86);  
   width: 100%;
 }
 #button3a, #button6a {
@@ -292,9 +301,8 @@ nav {
   gap: 20px;
 }
 .footer1 {
-  width: 100%;
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
   align-items: flex-start;
   gap: 20px;
 }
@@ -309,7 +317,6 @@ nav {
   align-items: center;
   list-style: none;
   justify-content: center;
-  width: 100%;  
   gap:  25px;
 }
 .footerlinks {
@@ -323,7 +330,7 @@ nav {
   margin-right: 20px;
 }
 .socialmedia:hover {
-  filter: opacity(50%);  
+  filter: opacity(50%);
 }
 .legal {
   color: gray;
