@@ -35,11 +35,11 @@ nav {
   justify-content: center;
   gap: 30%;
 }
-.left-nav {
+.left-nav, .right-nav {
+  display: flex;
+  align-items: center;
   justify-content: space-around;
-}
-.right-nav {
-  justify-content: space-around;
+  gap:  20px;
 }
 .navbuttons {
   border-radius: 15px;
@@ -328,16 +328,6 @@ nav {
 .stickydiv h2, .stickydiv h6 {
   background-color: inherit;
 }
-.left-nav, .right-nav {
-  display: flex;
-  align-items: center;
-}
-.left-nav {
-  gap:  20px;
-}
-.right-nav {
-  gap: 20px;
-}
 .footer1 {
   display: flex;
   justify-content: center;
@@ -367,11 +357,343 @@ nav {
 .socialmedia {
   width: 40px;
   margin-right: 20px;
-  position: ;
 }
 .socialmedia:hover {
   filter: opacity(50%);
 }
 .legal {
   color: gray;
+}
+@media only screen and (max-width: 834px) {
+  * {
+    background-color: white;
+    box-sizing: border-box;
+  }
+  body {
+    color: white;
+    font-family: Helvetica,Arial,sans-serif;
+  }
+  a:link {
+    text-decoration: none;
+  }
+  a:visited {
+    text-decoration: none;
+  }
+  a:hover {
+    text-decoration: none;
+  }
+  a:active {
+    text-decoration: none;
+  }
+  .a-nav:hover {
+    border-bottom: 5px solid #00754a;
+  }
+  nav {
+    width: fit-content;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 0px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    z-index: 1000;
+    width: 100%;
+  }
+  .main-nav {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    width: fit-content;
+    margin: 0px;
+    gap: 0px;
+  }
+  .center-nav {
+    display: none;
+  }
+  .navbuttons {
+    border-radius: 15px;
+    padding: 6px;
+    font-weight: bold;
+  }
+  .maintitles {
+    font-weight: bold;
+    font-size: x-large;
+  }
+  .storelocator:hover {
+    color: grey;
+  }
+  #login:hover {
+    color: grey;
+    cursor: pointer;
+  }
+  #join {
+    background-color: black;
+    color: white;
+  }
+  #join:hover {
+    cursor: pointer;
+  }
+  .contenido {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .div1 {
+    background-color: rgb(30, 57, 50);
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .div1a {
+    background-color: rgb(30, 57, 50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;  
+  }
+  .div1a > * {
+    background-color: rgb(30, 57, 50);
+    padding: 0px 60px;
+  }
+  .div2 {
+    background-color: rgb(247, 183, 144);
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .div2a {
+    background-color: rgb(247, 183, 144);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .div2a > * {
+    background-color: rgb(247, 183, 144);
+    padding: 0px 60px;
+  }
+  .div3 {
+    background-color: rgb(30, 57, 50);
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .div3a {
+    background-color: rgb(30, 57, 50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .div3a > * {
+    background-color: rgb(30, 57, 50);
+  }
+  .div4 {
+    background-color: rgb(196, 165, 109);
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .div4a {
+    background-color: rgb(196, 165, 109);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .div4a > * {
+    background-color: rgb(196, 165, 109);
+  }
+  .div5 {
+    background-color: rgb(66, 143, 180);
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .div5a {
+    background-color: rgb(66, 143, 180);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .div5a > * {
+    background-color: rgb(66, 143, 180);
+    padding: 0px 60px;  
+  }
+  .div6 {
+    background-color: rgb(30, 57, 50);
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .div6a {
+    background-color: rgb(30, 57, 50);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .div6a > * {
+    background-color: rgb(30, 57, 50);
+    padding: 0px 60px;
+  }
+  .div7 {
+    background-color: rgb(8, 65, 86);
+    margin: 0 0 20px 0;
+    display: flex;
+    flex-direction: column;
+  }
+  .div7a {
+    background-color: rgb(8, 65, 86);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+  }
+  .div7a > * {
+    background-color: rgb(8, 65, 86);
+    padding: 0px 60px;
+  }
+  .div8 {
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    max-width: 2000px;
+  }
+  .div8a {
+    background-color: rgb(52, 51, 51);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0 0 20px 0;
+    width: 100%;
+  }
+  .div8a > * {
+    background-color: rgb(52, 51, 51);
+  }
+  .div8b {
+    background-color: rgb(8, 65, 86);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin-right: 10px;
+    width: 100%;
+  }
+  .div8b > * {
+    background-color: rgb(8, 65, 86);
+  }
+  .mainbuttons {
+    border-radius: 15px;
+    padding: 6px;
+    font-weight: bold;
+    border-color: white;
+    display: inline-block;
+    text-align: center;
+  }
+  #mainimage1 {
+    background-color: rgb(30, 57, 50);
+  }
+  #mainimage2 {
+    background-color: rgb(247, 183, 144);
+  }
+  #mainimage3 {
+    background-color: rgb(30, 57, 50);
+  }
+  #mainimage4 {
+    background-color: rgb(196, 165, 109);
+  }
+  #mainimage5 {
+    background-color: rgb(66, 143, 180);
+  }
+  #mainimage6 {
+    background-color: rgb(30, 57, 50);
+  }
+  #mainimage7 {
+    background-color: rgb(8, 65, 86);
+  }
+  #mainimage8 {
+    background-color: rgb(52, 51, 51);
+    width: 100%;
+  }
+  #mainimage9 {
+    background-color: rgb(8, 65, 86);  
+    width: 100%;
+  }
+  #button3a, #button6a {
+    background-color: rgb(30, 57, 50);
+    color: white;
+  }
+  #button7a, #button8b {
+    background-color: rgb(8, 65, 86);
+    color: white;
+  }
+  #button8a {
+    background-color: rgb(52, 51, 51);
+    color: white;
+  }
+  #button3a:hover, #button6a:hover {
+    background-color: rgb(40, 75, 66);
+  }
+  #button7a:hover, #button8b:hover {
+    background-color: rgb(52, 51, 51);
+  }
+  #button8a:hover {
+    background-color: rgb(70, 68, 68);
+  }
+  .main-images {
+    width: 100%;
+  }
+  .stickydiv {
+    display: none;
+  }
+  .footer1 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 20px;
+  }
+  .footer1divs {
+    color: black;
+    padding: 10px;
+  }
+  .footer2 {
+    text-align: center;
+  }
+  .footer2 ul {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    justify-content: center;
+    gap: 0px;
+    padding: 0px;
+  }
+  .footerlinks {
+    color: rgb(156, 152, 152);
+  }
+  .footerlinks:hover {
+    color: gray;
+  }
+  .socialmedia {
+    width: 40px;
+    margin-right: 10px;
+    margin-left: 10px;
+  }
+  .socialmedia:hover {
+    filter: opacity(50%);
+  }
+  .legal {
+    color: gray;
+  }
 }
